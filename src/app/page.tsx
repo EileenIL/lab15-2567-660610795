@@ -128,7 +128,7 @@ if(form.values.coupon === "CMU2023") price = price*0.7;
         <Space h="lg" />
 
         {/* add form */}
-        <form onSubmit={form.onSubmit((v) => alert("See you at CMU Marathon"))}>
+        <form onSubmit={form.onSubmit(() => alert("See you at CMU Marathon"))}>
           <Stack gap="sm">
             <Group grow align="start">
               <TextInput
